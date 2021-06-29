@@ -88,11 +88,9 @@
     Upload input
     ===================================================
     -->
-      <div
+      <border-block
         class="
-          tableHeader
           d-flex
-          rounded
           align-center
           justify-space-between
           pa-5
@@ -132,7 +130,7 @@
           accept=".json"
           @change="upload"
         />
-      </div>
+      </border-block>
     </div>
     <!--
     ===================================================
@@ -179,7 +177,10 @@
 </template>
 
 <script>
+import BorderBlock from '@/components/BorderBlock';
+
 export default {
+  components: { BorderBlock },
   props: {
     skipped: {
       type: Boolean,

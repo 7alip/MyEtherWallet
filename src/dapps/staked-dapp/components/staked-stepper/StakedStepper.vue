@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-3">
     <!--
     ===================================================
     Staked MEW Stepper

@@ -19,7 +19,7 @@
     ===================================================
     -->
     <template #HeaderBody>
-      <v-divider class="textPrimary" />
+      <v-divider class="textPrimary my-2" />
       <div class="d-flex flex-wrap align-center justify-center">
         <div class="text-uppercase textPrimary--text font-weight-bold">
           Total Staked:
