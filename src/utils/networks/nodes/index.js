@@ -6,6 +6,8 @@ import rinmewws from './rin-mew-ws';
 import ropmewws from './rop-mew-ws';
 import bscmewws from './bsc-mew-ws';
 import maticmewws from './matic-mew-ws';
+import rskpubws from './rsk-public-ws';
+import rsktestws from './rsk-test-ws';
 
 export {
   etcethereumclassiccooperativeparityws,
@@ -15,5 +17,7 @@ export {
   rinmewws,
   ropmewws,
   bscmewws,
-  maticmewws
+  maticmewws,
+  rskpubws,
+  rsktestws
 };

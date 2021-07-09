@@ -6,5 +6,7 @@ import RIN from './RIN.js';
 import ROP from './ROP.js';
 import BSC from './BSC.js';
 import MATIC from './MATIC.js';
+import RSK from './RSK';
+import RSKTEST from './RSKTEST';
 
-export { ETH, GOERLI, ETC, KOV, RIN, ROP, BSC, MATIC };
+export { ETH, GOERLI, ETC, KOV, RIN, ROP, BSC, MATIC, RSK, RSKTEST };
